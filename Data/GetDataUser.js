@@ -5,6 +5,7 @@ const auth0TokenUrl = "https://testerun.us.auth0.com/oauth/token"; // Reemplaza 
 const ClientId = process.env.CLIENTID;
 const ClientSecret = process.env.CLIENTSECRET;
 
+
 // Objeto para almacenar los datos del usuario por sesión
 let userData = {};
 
